@@ -34,3 +34,11 @@ This configuration ensures mandatory data preservation for compliance and busine
 * **Goal:** Retain all corporate data for **7 years** to meet regulatory requirements, even if the user attempts deletion.
 * **Preservation Method:** Defined a Retention Label that moves deleted content to the **Preservation Hold Library**, making it inaccessible to end-users but available for audit.
 * **Targeting Method:** Utilized **Adaptive Scopes** for SharePoint sites to dynamically apply the retention policy to all existing and future team sites, ensuring future-proof coverage.
+
+---
+## 3. Policy Link
+
+| File Path | Description |
+| :--- | :--- |
+| [`sensitivitylabel.md`](sensitivitylabel.md) | **Sensitivity Label and Auto-labeling Implementation** |
+| [`retentionlabel.md`](retentionlabel.md) | **Retention Label Auto-labeling Implementation** |
