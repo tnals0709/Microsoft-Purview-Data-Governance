@@ -4,7 +4,7 @@
 
 **Goal:** Ensure compliance and robust data governance by retaining corporate data for 7 years and securely disposing of it afterwards.
 
-### A. Retention Label Definition
+### Retention Label Definition
 
 **Description:** To ensure compliance and robust data governance, our Microsoft Purview Retention Labels are configured to retain company data for 7 years. This means that even if a user 'deletes' an item from their visible Microsoft 365 interface, a secure copy is automatically moved to the hidden **Preservation Hold Library**. This preserved content remains inaccessible to the end-users but is retained for the full 7-year duration, fulfilling our critical compliance requirements. Furthermore, these Retention Labels significantly benefit the IT team by aiding in recovery from accidental removals, facilitating data rollback, and providing a crucial layer of protection in various disaster scenarios.
 
@@ -14,7 +14,7 @@
 | **During Retention**| Retain items even if users delete | Content is moved to the **Preservation Hold Library** to prevent permanent deletion by end-users. |
 | **After Retention**| Delete items automatically | Ensures secure disposal after the compliance period is met. |
 
-### B. Adaptive Scope Configuration
+### Adaptive Scope Configuration
 
 Adaptive Scopes are used for precise, dynamic targeting of retention policies across large organizations.
 
@@ -25,7 +25,7 @@ Adaptive Scopes are used for precise, dynamic targeting of retention policies ac
 * **Simple Query:** `Site URL starts with https://tenant.sharepoint.com/sites;`
     * *Goal:* Dynamically scopes all existing and future SharePoint communication and team sites.
 
-### C. Publish Auto-Retention Labels
+### Publish Auto-Retention Labels
 
 Two separate auto-retention policies are published to ensure comprehensive coverage across both static and adaptive locations.
 
@@ -36,7 +36,7 @@ Two separate auto-retention policies are published to ensure comprehensive cover
 
 ---
 
-### 🔗 Recovery Link Examples (Illustrative)
+### Recovery Link Examples
 
 These links illustrate where content is held within the Preservation Hold Library:
 
