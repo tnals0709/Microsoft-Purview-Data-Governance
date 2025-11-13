@@ -1,9 +1,3 @@
-# Microsoft Purview: Information Protection and Records Management
-
-This guide documents the creation and deployment of robust Data Governance policies, demonstrating expertise in **Sensitivity Labeling (Data Security)**.
-
----
-
 ## 1. Sensitivity Label Implementation (Information Protection)
 
 **Path:** `Purview` > `Information Protection` > `Sensitivity labels`
