@@ -10,7 +10,7 @@ This guide documents the creation and deployment of robust Data Governance polic
 
 **Goal:** All documents are encrypted (confidential label). Only managers can remove the label from the document to decrypt via Purview Information Protection client. This setup is foundational to a Data Loss Prevention (DLP) strategy.
 
-### A. Label: Confidential - Internal Only (General User Label)
+### Label: Confidential - Internal Only (General User Label)
 
 | Setting Category | Configuration | Rationale |
 | :--- | :--- | :--- |
@@ -20,7 +20,7 @@ This guide documents the creation and deployment of robust Data Governance polic
 | **Access Control** | Assigned to `[domain]` (organization) with **Owner permission**. | Allows general users to create, change, and delete their own labeled documents. |
 | **Manager Rationale** | Removing/lowering the label requires the owner role, restricting general users from overriding the policy. |
 
-### B. Label: Confidential - Manager Only (Decryption/Removal Label)
+### Label: Confidential - Manager Only (Decryption/Removal Label)
 
 | Setting Category | Configuration | Rationale |
 | :--- | :--- | :--- |
@@ -28,14 +28,14 @@ This guide documents the creation and deployment of robust Data Governance polic
 | **Access Control** | Assigned to `managergroup@domain.com` with **Co-Owner permission**. | Grants managers the explicit right to remove or lower the label's classification (decryption). |
 | **Requirement** | Requires a **mail-enabled security group** for permission assignment. | Ensures efficient management and verification of manager identity. |
 
-### C. Publishing & Mandatory Policy
+### Publishing & Mandatory Policy
 
 * **Published To:** Exchange email - All accounts
 * **Default Document Label:** **Confidential - Internal Only**
 * **Mandatory Labeling:** Users must provide justification to remove a label or lower its classification.
 * **Goal:** Enforce a secure default posture and audit exceptions.
 
-### D. Auto-labeling Policy: Confidential
+### Auto-labeling Policy: Confidential
 
 * **Policy Name:** Document Auto-labeling policy - Confidential
 * **File Extensions:** Configured to apply to a comprehensive list of Office and document file types (`.docx`, `.xlsx`, `.pdf`, etc.).
