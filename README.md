@@ -1,8 +1,6 @@
 # Microsoft Purview: Data Governance and Compliance
 
-This repository documents the implementation of enterprise-level **Microsoft Purview** policies, demonstrating expertise in **Information Protection (Data Security)** and **Records Management (Compliance)**.
-
-This work ensures corporate data meets regulatory requirements and enforces critical controls over sensitive content lifecycle across Microsoft 365 services (SharePoint, OneDrive, Exchange, Teams).
+This repository documents the implementation and configuration of Microsoft Purview data governance controls for Microsoft 365, covering Information Protection, data lifecycle management, and Records Management across SharePoint, OneDrive, Exchange, and Teams.
 
 ---
 
